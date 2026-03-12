@@ -103,11 +103,11 @@ function generate() {
 
   for (let i = 0; i < 15; i++) {
     let x = Math.floor(Math.random() * characters.length);
-    Pass1.textContent += characters[y];
+    Pass1.textContent += characters[x];
   }
 
   for (let i = 0; i < 15; i++) {
     let y = Math.floor(Math.random() * characters.length);
-    Pass2.textContent += characters[x];
+    Pass2.textContent += characters[y];
   }
 }
